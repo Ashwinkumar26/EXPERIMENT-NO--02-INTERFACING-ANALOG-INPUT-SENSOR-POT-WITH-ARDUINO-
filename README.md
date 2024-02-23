@@ -1,8 +1,7 @@
- ###  DATE: 
-
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+ ###  DATE: 23/02/2024
+###  NAME: Ashwin Kumar K
+###  ROLL NO :212221223001
+###  DEPARTMENT: Information Techonology
 
 **AIM**:  To interface a Analog  input (angular displacement sensor POT) and scale the values up on change in the input.
 

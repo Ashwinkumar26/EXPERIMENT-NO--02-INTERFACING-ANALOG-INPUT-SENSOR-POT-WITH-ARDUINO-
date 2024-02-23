@@ -68,8 +68,38 @@ CIRCUIT DIAGRAM
 
 
 **PROGRAM** 
- 
+```
+// C++ code
+//
+int pot;
+int led=7;
 
+void setup()
+{
+  pinMode(led,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  pot=analogRead(A0);
+  //rial.print("Values=");
+  Serial.println(pot);
+  if (pot>900)
+  {  
+ 
+  digitalWrite(led, HIGH);
+  delay(500);
+  digitalWrite(led, LOW);
+  delay(500); 
+  }
+  else
+  {
+    digitalWrite(led,LOW);
+    delay(500);
+  }
+}
+```
 
 
 
